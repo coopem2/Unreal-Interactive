@@ -1,0 +1,744 @@
+﻿Log file open, 12/06/17 20:10:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UnrealInteractive
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(855731287) SRandInit(855731287).
+LogTaskGraph: Started task graph with 5 named threads and 50 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.547136
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: Q:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.07-01.10.20:874][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-01.10.20:874][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.07-01.10.20:913][  0]LogInit: Computer: A-C613-12
+[2017.12.07-01.10.20:913][  0]LogInit: User: mitchellcooper
+[2017.12.07-01.10.20:913][  0]LogInit: CPU Page size=4096, Cores=16
+[2017.12.07-01.10.20:913][  0]LogInit: High frequency timer resolution =2.533232 MHz
+[2017.12.07-01.10.20:914][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.12.07-01.10.20:914][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.07-01.10.20:914][  0]LogMemory: Process Physical Memory: 296.18 MB used, 296.18 MB peak
+[2017.12.07-01.10.20:914][  0]LogMemory: Process Virtual Memory: 296.66 MB used, 296.66 MB peak
+[2017.12.07-01.10.20:914][  0]LogMemory: Physical Memory: 8973.50 MB used,  23701.95 MB free, 32675.45 MB total
+[2017.12.07-01.10.20:914][  0]LogMemory: Virtual Memory: 702.38 MB used,  23701.95 MB free, 8388608.00 MB total
+[2017.12.07-01.10.21:073][  0]LogInit: Using OS detected language (en-US).
+[2017.12.07-01.10.21:073][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.07-01.10.21:078][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.07-01.10.22:056][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.07-01.10.22:095][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200 ' (Feature Level 11_0)
+[2017.12.07-01.10.22:095][  0]LogD3D11RHI:       4015/0/16081 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.07-01.10.22:095][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.07-01.10.22:110][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.07-01.10.22:110][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2017.12.07-01.10.22:110][  0]LogWindows: EnumDisplayDevices:
+[2017.12.07-01.10.22:110][  0]LogWindows:    0. 'NVIDIA Quadro K2200 ' (P:1 D:1)
+[2017.12.07-01.10.22:110][  0]LogWindows:    1. 'NVIDIA Quadro K2200 ' (P:0 D:0)
+[2017.12.07-01.10.22:110][  0]LogWindows:    2. 'NVIDIA Quadro K2200 ' (P:0 D:0)
+[2017.12.07-01.10.22:111][  0]LogWindows:    3. 'NVIDIA Quadro K2200 ' (P:0 D:0)
+[2017.12.07-01.10.22:111][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.12.07-01.10.22:111][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.12.07-01.10.22:111][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.12.07-01.10.22:111][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.07-01.10.22:111][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200 
+[2017.12.07-01.10.22:111][  0]LogD3D11RHI:   Driver Version: 340.52 (internal:9.18.13.4052, unified:340.52)
+[2017.12.07-01.10.22:111][  0]LogD3D11RHI:      Driver Date: 7-2-2014
+[2017.12.07-01.10.22:111][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.07-01.10.22:131][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.12.07-01.10.22:131][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.07-01.10.22:153][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.07-01.10.23:323][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../Unreal-Interactive/UnrealInteractive/Intermediate/Shaders/WorkingDirectory/21700/).
+[2017.12.07-01.10.23:324][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MITCHELL_COOPER/AppData/Local/Temp/UnrealShaderWorkingDir/4F159D8D484C4735225DC1BE66AECDDF/'.
+[2017.12.07-01.10.23:324][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.07-01.10.24:650][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.07-01.10.24:717][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.07-01.10.24:781][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.07-01.10.24:844][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.07-01.10.24:907][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.07-01.10.24:970][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.07-01.10.25:033][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.07-01.10.25:096][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.07-01.10.25:143][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.07-01.10.25:197][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.07-01.10.25:269][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.07-01.10.25:328][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.07-01.10.25:389][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.07-01.10.25:451][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.07-01.10.25:543][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.07-01.10.25:669][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.07-01.10.25:669][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.07-01.10.25:717][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.07-01.10.25:815][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.07-01.10.25:863][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.07-01.10.25:941][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.07-01.10.25:999][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.07-01.10.26:057][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.07-01.10.26:112][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.07-01.10.26:113][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.07-01.10.26:705][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.07-01.10.26:886][  0]LogDerivedDataCache: Loaded boot cache 0.18s 93MB C:/Users/MITCHELL_COOPER/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.07-01.10.26:887][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/MITCHELL_COOPER/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.07-01.10.26:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal-Interactive/UnrealInteractive/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.07-01.10.26:887][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.07-01.10.26:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal-Interactive/UnrealInteractive/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.07-01.10.26:887][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.07-01.10.26:912][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.07-01.10.26:927][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MITCHELL_COOPER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.07-01.10.26:955][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.07-01.10.26:956][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.07-01.10.26:958][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-01.10.26:959][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-01.10.27:464][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.12.07-01.10.27:767][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-01.10.27:779][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.07-01.10.28:418][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.07-01.10.28:486][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.07-01.10.28:486][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.07-01.10.28:486][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.07-01.10.28:486][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.07-01.10.28:486][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.07-01.10.29:309][  0]LogNetVersion: UnrealInteractive , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 262346498)
+[2017.12.07-01.10.29:608][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.053111 seconds
+[2017.12.07-01.10.29:616][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.07-01.10.29:616][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.07-01.10.29:616][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.07-01.10.29:677][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.07-01.10.33:100][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.07-01.10.33:133][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.07-01.10.33:987][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.07-01.10.34:435][  0]SourceControl: Source control is disabled
+[2017.12.07-01.10.34:435][  0]SourceControl: Source control is disabled
+[2017.12.07-01.10.34:485][  0]SourceControl: Source control is disabled
+[2017.12.07-01.10.34:536][  0]SourceControl: Source control is disabled
+[2017.12.07-01.10.35:116][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.07-01.10.35:368][  0]LogOcInput: OculusInput pre-init called
+[2017.12.07-01.10.35:628][  0]LogEngine: Initializing Engine...
+[2017.12.07-01.10.35:630][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.07-01.10.35:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.07-01.10.35:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.07-01.10.36:367][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.07-01.10.36:388][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.07-01.10.36:413][  0]LogInit: FAudioDevice initialized.
+[2017.12.07-01.10.36:566][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/MITCHELL_COOPER/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.07-01.10.36:604][  0]LogInit: Texture streaming: Enabled
+[2017.12.07-01.10.36:680][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.07-01.10.36:975][  0]LogInit: Transaction tracking system initialized
+[2017.12.07-01.10.37:337][  0]BlueprintLog: New page: Editor Load
+[2017.12.07-01.10.38:397][  0]LocalizationService: Localization service is disabled
+[2017.12.07-01.10.39:267][  0]LogConsoleResponse: Display: 
+[2017.12.07-01.10.39:496][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.07-01.10.39:496][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.07-01.10.39:497][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.07-01.10.39:661][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal-Interactive/UnrealInteractive/Content/' took 0.02s
+[2017.12.07-01.10.40:730][  0]SourceControl: Source control is disabled
+[2017.12.07-01.10.40:730][  0]Cmd: MAP LOAD FILE="../../../../Unreal-Interactive/UnrealInteractive/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-01.10.40:731][  0]LightingResults: New page: Lighting Build
+[2017.12.07-01.10.40:777][  0]MapCheck: New page: Map Check
+[2017.12.07-01.10.40:777][  0]LightingResults: New page: Lighting Build
+[2017.12.07-01.10.40:886][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:886][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading ../../../../Unreal-Interactive/UnrealInteractive/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.12.07-01.10.40:886][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/Mehses/Pod_and_marine_PodBody_pCylinder8
+[2017.12.07-01.10.40:902][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:902][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading ../../../../Unreal-Interactive/UnrealInteractive/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.12.07-01.10.40:902][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/Mehses/Pod_and_marine_PodBody_pCylinder8
+[2017.12.07-01.10.40:910][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:910][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading NULL.
+[2017.12.07-01.10.40:910][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:910][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading NULL.
+[2017.12.07-01.10.40:924][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:924][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:924][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading NULL.
+[2017.12.07-01.10.40:924][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:925][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:925][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:925][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading NULL.
+[2017.12.07-01.10.40:925][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:925][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:925][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:925][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading NULL.
+[2017.12.07-01.10.40:925][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:925][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:925][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:925][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading NULL.
+[2017.12.07-01.10.40:926][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:926][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:926][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:926][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading NULL.
+[2017.12.07-01.10.40:926][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:926][  0]LogLinker: Warning: Can't find file '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8'
+[2017.12.07-01.10.40:926][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.40:926][  0]LogLinker: Warning: Can't find file for asset '/Game/Mehses/Pod_and_marine_PodBody_pCylinder8' while loading NULL.
+[2017.12.07-01.10.40:926][  0]LoadErrors: Failed to load /Game/Mehses/Pod_and_marine_PodBody_pCylinder8.Pod_and_marine_PodBody_pCylinder8 Referenced by StaticMeshComponent0
+[2017.12.07-01.10.41:066][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.12.07-01.10.41:079][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-01.10.41:141][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-01.10.41:225][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.912ms to complete.
+[2017.12.07-01.10.41:225][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.496
+[2017.12.07-01.10.41:464][  0]LogCollectionManager: Loaded 0 collections in 0.002955 seconds
+[2017.12.07-01.10.41:588][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal-Interactive/UnrealInteractive/Saved/Collections/' took 0.01s
+[2017.12.07-01.10.41:588][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal-Interactive/UnrealInteractive/Content/Developers/mitchellcooper/Collections/' took 0.01s
+[2017.12.07-01.10.41:588][  0]LogFileCache: Scanning file cache for directory 'Q:/Unreal-Interactive/UnrealInteractive/Content/Collections/' took 0.01s
+[2017.12.07-01.10.41:588][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.07-01.10.41:599][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2387 classes and 502 folders.
+[2017.12.07-01.10.41:659][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.12.07-01.10.41:722][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.12.07-01.10.41:745][  0]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-01.10.41:750][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.07-01.10.41:752][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.07-01.10.41:865][  0]LogRenderer: Reallocating scene render targets to support 1116x576 Format 9 NumSamples 1 (Frame:1).
+[2017.12.07-01.10.41:980][  0]LogSlate: Took 0.000645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-01.10.42:380][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.12.07-01.10.42:380][  0]LogLoad: (Engine Initialization) Total time: 24.75 seconds
+[2017.12.07-01.10.42:380][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.07-01.10.42:381][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.07-01.10.42:381][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.07-01.10.42:743][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.12.07-01.10.43:397][  2]LogAssetRegistry: Asset discovery search completed in 15.9521 seconds
+[2017.12.07-01.10.43:401][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.07-01.10.43:401][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2017.12.07-01.10.51:582][276]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-01.10.51:701][276]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../Unreal-Interactive/UnrealInteractive/Import/patrol.fbx)
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: Material, ItemCount : 2
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: Model, ItemCount : 44
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: Geometry, ItemCount : 22
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: NodeAttribute, ItemCount : 22
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: AnimationCurveNode, ItemCount : 66
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: AnimationCurve, ItemCount : 48
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: Pose, ItemCount : 21
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: Deformer, ItemCount : 150
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: Constraint, ItemCount : 1
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: Character, ItemCount : 2
+[2017.12.07-01.10.51:752][276]LogFbx: ItemName: Video, ItemCount : 2
+[2017.12.07-01.10.51:759][276]LogFbx: Loading FBX Scene from ../../../../Unreal-Interactive/UnrealInteractive/Import/patrol.fbx
+[2017.12.07-01.10.51:833][276]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.07-01.11.02:440][276]LogFbx: Loading FBX Scene from ../../../../Unreal-Interactive/UnrealInteractive/Import/patrol.fbx
+[2017.12.07-01.11.02:517][276]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.07-01.11.02:520][276]LogFbx: =================================================
+[2017.12.07-01.11.02:520][276]LogFbx: Dumping Node START [head] 
+[2017.12.07-01.11.02:520][276]LogFbx: 	Total Deformer Count 1151996192.
+[2017.12.07-01.11.02:520][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:520][276]LogFbx: =================================================
+[2017.12.07-01.11.02:520][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:520][276]LogFbx: 		[Node Attribute Child 1] head (Type Mesh).
+[2017.12.07-01.11.02:520][276]LogFbx: Dumping Node END [head]
+[2017.12.07-01.11.02:520][276]LogFbx: =================================================
+[2017.12.07-01.11.02:520][276]LogFbx: Dumping Node START [left_leg] 
+[2017.12.07-01.11.02:520][276]LogFbx: 	Total Deformer Count 960903536.
+[2017.12.07-01.11.02:520][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:520][276]LogFbx: =================================================
+[2017.12.07-01.11.02:520][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:520][276]LogFbx: 		[Node Attribute Child 1] left_leg (Type Mesh).
+[2017.12.07-01.11.02:520][276]LogFbx: Dumping Node END [left_leg]
+[2017.12.07-01.11.02:520][276]LogFbx: =================================================
+[2017.12.07-01.11.02:520][276]LogFbx: Dumping Node START [left_pauldron] 
+[2017.12.07-01.11.02:520][276]LogFbx: 	Total Deformer Count 1029617872.
+[2017.12.07-01.11.02:520][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:520][276]LogFbx: =================================================
+[2017.12.07-01.11.02:520][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:520][276]LogFbx: 		[Node Attribute Child 1] left_pauldron (Type Mesh).
+[2017.12.07-01.11.02:520][276]LogFbx: Dumping Node END [left_pauldron]
+[2017.12.07-01.11.02:520][276]LogFbx: =================================================
+[2017.12.07-01.11.02:520][276]LogFbx: Dumping Node START [crotch] 
+[2017.12.07-01.11.02:520][276]LogFbx: 	Total Deformer Count 960903536.
+[2017.12.07-01.11.02:520][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:520][276]LogFbx: =================================================
+[2017.12.07-01.11.02:520][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:520][276]LogFbx: 		[Node Attribute Child 1] crotch (Type Mesh).
+[2017.12.07-01.11.02:520][276]LogFbx: Dumping Node END [crotch]
+[2017.12.07-01.11.02:520][276]LogFbx: =================================================
+[2017.12.07-01.11.02:520][276]LogFbx: Dumping Node START [left_foot] 
+[2017.12.07-01.11.02:521][276]LogFbx: 	Total Deformer Count 1151854528.
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node Attribute Child 1] left_foot (Type Mesh).
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node END [left_foot]
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node START [left_upper_arm] 
+[2017.12.07-01.11.02:521][276]LogFbx: 	Total Deformer Count 1029618752.
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node Attribute Child 1] left_upper_arm (Type Mesh).
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node END [left_upper_arm]
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node START [left_lower_arm] 
+[2017.12.07-01.11.02:521][276]LogFbx: 	Total Deformer Count 1029618752.
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node Attribute Child 1] left_lower_arm (Type Mesh).
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node END [left_lower_arm]
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node START [power_pack] 
+[2017.12.07-01.11.02:521][276]LogFbx: 	Total Deformer Count 1151854528.
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node Attribute Child 1] power_pack (Type Mesh).
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node END [power_pack]
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node START [chest] 
+[2017.12.07-01.11.02:521][276]LogFbx: 	Total Deformer Count 1151992976.
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node Attribute Child 1] chest (Type Mesh).
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node END [chest]
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node START [waist] 
+[2017.12.07-01.11.02:521][276]LogFbx: 	Total Deformer Count 1151992976.
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node Attribute Child 1] waist (Type Mesh).
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node END [waist]
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node START [left_upper_leg] 
+[2017.12.07-01.11.02:521][276]LogFbx: 	Total Deformer Count 1029603712.
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node Attribute Child 1] left_upper_leg (Type Mesh).
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node END [left_upper_leg]
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: Dumping Node START [left_hip_socket] 
+[2017.12.07-01.11.02:521][276]LogFbx: 	Total Deformer Count 1029603712.
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:521][276]LogFbx: =================================================
+[2017.12.07-01.11.02:521][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:521][276]LogFbx: 		[Node Attribute Child 1] left_hip_socket (Type Mesh).
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node END [left_hip_socket]
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node START [left_hand] 
+[2017.12.07-01.11.02:522][276]LogFbx: 	Total Deformer Count 1151854528.
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node Attribute Child 1] left_hand (Type Mesh).
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node END [left_hand]
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node START [right_hand] 
+[2017.12.07-01.11.02:522][276]LogFbx: 	Total Deformer Count 1151854528.
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node Attribute Child 1] right_hand (Type Mesh).
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node END [right_hand]
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node START [right_hip_socket] 
+[2017.12.07-01.11.02:522][276]LogFbx: 	Total Deformer Count 1029606432.
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node Attribute Child 1] right_hip_socket (Type Mesh).
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node END [right_hip_socket]
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node START [right_upper_leg] 
+[2017.12.07-01.11.02:522][276]LogFbx: 	Total Deformer Count 1029606432.
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node Attribute Child 1] right_upper_leg (Type Mesh).
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node END [right_upper_leg]
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node START [right_lower_arm] 
+[2017.12.07-01.11.02:522][276]LogFbx: 	Total Deformer Count 1029606432.
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node Attribute Child 1] right_lower_arm (Type Mesh).
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node END [right_lower_arm]
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node START [right_foot] 
+[2017.12.07-01.11.02:522][276]LogFbx: 	Total Deformer Count 1151854528.
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node Attribute Child 1] right_foot (Type Mesh).
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node END [right_foot]
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node START [right_upper_arm] 
+[2017.12.07-01.11.02:522][276]LogFbx: 	Total Deformer Count 1029603952.
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node Attribute Child 1] right_upper_arm (Type Mesh).
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node END [right_upper_arm]
+[2017.12.07-01.11.02:522][276]LogFbx: =================================================
+[2017.12.07-01.11.02:522][276]LogFbx: Dumping Node START [right_lower_leg] 
+[2017.12.07-01.11.02:522][276]LogFbx: 	Total Deformer Count 1029603952.
+[2017.12.07-01.11.02:522][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node Attribute Child 1] right_lower_leg (Type Mesh).
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node END [right_lower_leg]
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node START [right_pauldron] 
+[2017.12.07-01.11.02:523][276]LogFbx: 	Total Deformer Count 1029603952.
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node Attribute Child 1] right_pauldron (Type Mesh).
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node END [right_pauldron]
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node START [pCube1] 
+[2017.12.07-01.11.02:523][276]LogFbx: 	Total Deformer Count 960902248.
+[2017.12.07-01.11.02:523][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node Attribute Child 1] pCube1 (Type Mesh).
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node END [pCube1]
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node START [head] 
+[2017.12.07-01.11.02:523][276]LogFbx: 	Total Deformer Count 1310817968.
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node Attribute Child 1] head (Type Mesh).
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node END [head]
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node START [left_leg] 
+[2017.12.07-01.11.02:523][276]LogFbx: 	Total Deformer Count 960902248.
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node Attribute Child 1] left_leg (Type Mesh).
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node END [left_leg]
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node START [left_pauldron] 
+[2017.12.07-01.11.02:523][276]LogFbx: 	Total Deformer Count 961925568.
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node Attribute Child 1] left_pauldron (Type Mesh).
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node END [left_pauldron]
+[2017.12.07-01.11.02:523][276]LogFbx: =================================================
+[2017.12.07-01.11.02:523][276]LogFbx: Dumping Node START [crotch] 
+[2017.12.07-01.11.02:523][276]LogFbx: 	Total Deformer Count 960902248.
+[2017.12.07-01.11.02:523][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node Attribute Child 1] crotch (Type Mesh).
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node END [crotch]
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node START [left_foot] 
+[2017.12.07-01.11.02:524][276]LogFbx: 	Total Deformer Count 1151848832.
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node Attribute Child 1] left_foot (Type Mesh).
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node END [left_foot]
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node START [left_upper_arm] 
+[2017.12.07-01.11.02:524][276]LogFbx: 	Total Deformer Count 961921248.
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node Attribute Child 1] left_upper_arm (Type Mesh).
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node END [left_upper_arm]
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node START [left_lower_arm] 
+[2017.12.07-01.11.02:524][276]LogFbx: 	Total Deformer Count 961921248.
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node Attribute Child 1] left_lower_arm (Type Mesh).
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node END [left_lower_arm]
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node START [power_pack] 
+[2017.12.07-01.11.02:524][276]LogFbx: 	Total Deformer Count 1151848832.
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node Attribute Child 1] power_pack (Type Mesh).
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node END [power_pack]
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node START [chest] 
+[2017.12.07-01.11.02:524][276]LogFbx: 	Total Deformer Count 1310814896.
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node Attribute Child 1] chest (Type Mesh).
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node END [chest]
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node START [waist] 
+[2017.12.07-01.11.02:524][276]LogFbx: 	Total Deformer Count 1310814896.
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node Attribute Child 1] waist (Type Mesh).
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node END [waist]
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: Dumping Node START [left_upper_leg] 
+[2017.12.07-01.11.02:524][276]LogFbx: 	Total Deformer Count 961932688.
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:524][276]LogFbx: =================================================
+[2017.12.07-01.11.02:524][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:524][276]LogFbx: 		[Node Attribute Child 1] left_upper_leg (Type Mesh).
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node END [left_upper_leg]
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node START [left_hip_socket] 
+[2017.12.07-01.11.02:525][276]LogFbx: 	Total Deformer Count 961932688.
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node Attribute Child 1] left_hip_socket (Type Mesh).
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node END [left_hip_socket]
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node START [left_hand] 
+[2017.12.07-01.11.02:525][276]LogFbx: 	Total Deformer Count 1151848832.
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node Attribute Child 1] left_hand (Type Mesh).
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node END [left_hand]
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node START [right_hand] 
+[2017.12.07-01.11.02:525][276]LogFbx: 	Total Deformer Count 1151848832.
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node Attribute Child 1] right_hand (Type Mesh).
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node END [right_hand]
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node START [right_hip_socket] 
+[2017.12.07-01.11.02:525][276]LogFbx: 	Total Deformer Count 961921328.
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node Attribute Child 1] right_hip_socket (Type Mesh).
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node END [right_hip_socket]
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node START [right_upper_leg] 
+[2017.12.07-01.11.02:525][276]LogFbx: 	Total Deformer Count 961921328.
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node Attribute Child 1] right_upper_leg (Type Mesh).
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node END [right_upper_leg]
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node START [right_lower_arm] 
+[2017.12.07-01.11.02:525][276]LogFbx: 	Total Deformer Count 961921328.
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node Attribute Child 1] right_lower_arm (Type Mesh).
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node END [right_lower_arm]
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node START [right_foot] 
+[2017.12.07-01.11.02:525][276]LogFbx: 	Total Deformer Count 1151848832.
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:525][276]LogFbx: 		[Node Attribute Child 1] right_foot (Type Mesh).
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node END [right_foot]
+[2017.12.07-01.11.02:525][276]LogFbx: =================================================
+[2017.12.07-01.11.02:525][276]LogFbx: Dumping Node START [right_upper_arm] 
+[2017.12.07-01.11.02:525][276]LogFbx: 	Total Deformer Count 961935008.
+[2017.12.07-01.11.02:526][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:526][276]LogFbx: =================================================
+[2017.12.07-01.11.02:526][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:526][276]LogFbx: 		[Node Attribute Child 1] right_upper_arm (Type Mesh).
+[2017.12.07-01.11.02:526][276]LogFbx: Dumping Node END [right_upper_arm]
+[2017.12.07-01.11.02:526][276]LogFbx: =================================================
+[2017.12.07-01.11.02:526][276]LogFbx: Dumping Node START [right_lower_leg] 
+[2017.12.07-01.11.02:526][276]LogFbx: 	Total Deformer Count 961935008.
+[2017.12.07-01.11.02:526][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:526][276]LogFbx: =================================================
+[2017.12.07-01.11.02:526][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:526][276]LogFbx: 		[Node Attribute Child 1] right_lower_leg (Type Mesh).
+[2017.12.07-01.11.02:526][276]LogFbx: Dumping Node END [right_lower_leg]
+[2017.12.07-01.11.02:526][276]LogFbx: =================================================
+[2017.12.07-01.11.02:526][276]LogFbx: Dumping Node START [right_pauldron] 
+[2017.12.07-01.11.02:526][276]LogFbx: 	Total Deformer Count 961935008.
+[2017.12.07-01.11.02:526][276]LogFbx: 		[Node 1]  (Type Skin).
+[2017.12.07-01.11.02:526][276]LogFbx: =================================================
+[2017.12.07-01.11.02:526][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:526][276]LogFbx: 		[Node Attribute Child 1] right_pauldron (Type Mesh).
+[2017.12.07-01.11.02:526][276]LogFbx: Dumping Node END [right_pauldron]
+[2017.12.07-01.11.02:526][276]LogFbx: =================================================
+[2017.12.07-01.11.02:526][276]LogFbx: Dumping Node START [pCube1] 
+[2017.12.07-01.11.02:526][276]LogFbx: 	Total Deformer Count 960900904.
+[2017.12.07-01.11.02:526][276]LogFbx: 	Attribute () Type (4).
+[2017.12.07-01.11.02:526][276]LogFbx: 		[Node Attribute Child 1] pCube1 (Type Mesh).
+[2017.12.07-01.11.02:526][276]LogFbx: Dumping Node END [pCube1]
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster1) - head
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster2) - head
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster3) - head
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster4) - head
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster5) - head
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster6) - head
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster7) - head
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster8) - head
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster9) - head
+[2017.12.07-01.11.02:527][276]LogFbx: Valid bind pose for Pose (skinCluster10) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster11) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster12) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster13) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster14) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster15) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster16) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster17) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster18) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster19) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster20) - head
+[2017.12.07-01.11.02:528][276]LogFbx: Valid bind pose for Pose (skinCluster21) - head
+[2017.12.07-01.11.02:557][276]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.07-01.11.02:558][276]FBXImport: Error: Error, Could not import head.
+Duplicate bone name found ('joint7'). Each bone must have a unique name. 
+[2017.12.07-01.11.02:558][276]FBXImport: Error: Multiple roots found 
+[2017.12.07-01.11.02:558][276]FBXImport: Warning: Get Import Data has failed. 
+[2017.12.07-01.11.02:558][276]FBXImport: Error: Import failed. 
+[2017.12.07-01.11.03:625][276]LogAssetTools: Warning: Failed to import '../../../../Unreal-Interactive/UnrealInteractive/Import/patrol.fbx'. Failed to create asset '/Game/patrol'.
+Please see Output Log for details.
+[2017.12.07-01.14.20:358][542]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.315 s
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: === Handled ensure: ===
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: 
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: Ensure condition failed: Found [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 248]
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: Cannot remove redirection from /Game/patrol.patrol, it was not registered
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: Stack: 
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DDFC3E36
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DDD4C2D2
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DDD64746
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000E3FA16D3
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-AssetRegistry.dll!0x00000000D0D95648
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D1EBD7FB
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D1EBCFB4
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D16BDEA7
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D1EBCBD2
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000C431311C
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000C4310DD8
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000C4314358
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000C2E74C1B
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000C2E6DE88
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000C2D9DA72
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000C2DA2F79
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000C2E446D5
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000E376B967
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000E37974D4
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000E35B42BC
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000E3587145
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000E3621452
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000E3609C92
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000E35FB68F
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DDF9B759
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DDF83EE1
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DDF9D5BB
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DDF7F042
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: USER32.dll!0x0000000077779BBD
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: USER32.dll!0x00000000777798C2
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DDF9DCC6
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor.exe!0x000000003F644BE2
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor.exe!0x000000003F653970
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor.exe!0x000000003F6539EA
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor.exe!0x000000003F6602D9
+[2017.12.07-01.14.20:358][542]LogOutputDevice: Error: UE4Editor.exe!0x000000003F661C47
+[2017.12.07-01.14.20:359][542]LogOutputDevice: Error: KERNEL32.dll!0x00000000776559CD
+[2017.12.07-01.14.20:359][542]LogOutputDevice: Error: ntdll.dll!0x000000007788A561
+[2017.12.07-01.14.20:359][542]LogOutputDevice: Error: 
+[2017.12.07-01.14.20:365][542]LogStats:                SubmitErrorReport -  0.000 s
